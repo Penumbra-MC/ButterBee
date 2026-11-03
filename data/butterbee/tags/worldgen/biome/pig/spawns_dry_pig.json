@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:is_savanna",
+    "#minecraft:is_badlands",
+    "minecraft:desert",
+    {"id":"clifftree:shrubland","required":false},
+    {"id":"clifftree:desert_cliff","required":false}
+  ]
+}

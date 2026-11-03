@@ -1,0 +1,6 @@
+{
+  "values": [
+    "minecraft:swamp",
+    {"id":"clifftree:kelp_forest","required":false}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+ "asset_id": "butterbee:entity/cow/cow_chalky",
+  "baby_asset_id": "butterbee:entity/cow/cow_chalky_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:cow/spawns_chalky_cow"
+      },
+      "priority": 1
+    }
+  ]
+}

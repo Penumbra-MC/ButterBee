@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.butterbee.black_egg",
+                "fallback": "Black Egg"
+              },
+              "minecraft:item_model": "butterbee:black_egg",
+              "minecraft:chicken/variant": "butterbee:roofed"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

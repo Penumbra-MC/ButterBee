@@ -1,0 +1,21 @@
+{
+    "assets": {
+      "angry": "butterbee:entity/wolf/wolf_charcoal_angry",
+      "tame": "butterbee:entity/wolf/wolf_charcoal_tame",
+      "wild": "butterbee:entity/wolf/wolf_charcoal"
+    },
+    "baby_assets": {
+      "angry": "butterbee:entity/wolf/wolf_charcoal_angry_baby",
+      "tame": "butterbee:entity/wolf/wolf_charcoal_tame_baby",
+      "wild": "butterbee:entity/wolf/wolf_charcoal_baby"
+    },
+    "spawn_conditions": [
+      {
+        "condition": {
+          "type": "minecraft:biome",
+          "biomes": "#butterbee:wolf/spawns_charcoal_wolf"
+        },
+        "priority": 2
+      }
+    ]
+  }

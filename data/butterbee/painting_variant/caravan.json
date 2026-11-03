@@ -1,0 +1,13 @@
+{
+  "asset_id": "butterbee:caravan",
+  "height": 1,
+  "width": 2,
+  "author": {
+    "color": "gray",
+    "text": "Konci"
+  },
+  "title": {
+    "color": "yellow",
+    "text": "Caravan"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "parent": "butterbee:technical/root",
+  "criteria": {
+    "name_nether_chicken": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "components": {
+              "chicken/variant": "butterbee:hamlin"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:nether_chicken/schedule_variant"
+  }
+}

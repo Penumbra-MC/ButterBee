@@ -1,0 +1,6 @@
+{
+  "model": "warm",
+  "asset_id": "butterbee:entity/cow/cow_damp",
+  "baby_asset_id": "butterbee:entity/cow/cow_damp_baby",
+  "spawn_conditions": []
+}

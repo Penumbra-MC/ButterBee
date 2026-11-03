@@ -1,0 +1,13 @@
+{
+  "model": "warm",
+  "asset_id": "butterbee:entity/nautilus/zombie_nautilus_thawed",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:zombie_nautilus/spawns_thawed_zombie_nautilus"
+      },
+      "priority": 2
+    }
+  ]
+}

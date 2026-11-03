@@ -1,0 +1,14 @@
+{
+  "asset_id": "butterbee:entity/pig/pig_dry",
+  "baby_asset_id": "butterbee:entity/pig/pig_dry_baby",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:pig/spawns_dry_pig"
+      },
+      "priority": 2
+    }
+  ]
+}

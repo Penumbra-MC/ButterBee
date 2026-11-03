@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.butterbee.gray_egg",
+                "fallback": "Gray Egg"
+              },
+              "minecraft:item_model": "butterbee:gray_egg",
+              "minecraft:chicken/variant": "butterbee:marsh"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

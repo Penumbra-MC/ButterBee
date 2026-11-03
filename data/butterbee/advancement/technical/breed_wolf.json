@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "breed_wolf": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:breed_wolf_owner_fix"
+  }
+}

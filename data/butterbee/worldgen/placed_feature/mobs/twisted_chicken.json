@@ -1,0 +1,28 @@
+{
+  "feature": {
+    "type": "minecraft:template",
+    "templates": [
+      {
+        "data": {
+          "id": "butterbee:mobs/twisted_chicken"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "placement": [
+    {
+      "type": "height_range",
+      "height": {
+        "absolute": -48
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:air"
+      }
+    }
+  ]
+}

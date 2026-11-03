@@ -1,0 +1,14 @@
+{
+  "model": "warm",
+  "asset_id": "butterbee:entity/cow/cow_bush",
+  "baby_asset_id": "butterbee:entity/cow/cow_bush_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:cow/spawns_bush_cow"
+      },
+      "priority": 2
+    }
+  ]
+}

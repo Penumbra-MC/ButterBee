@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#minecraft:spawns_coral_variant_zombie_nautilus",
+    {"id":"#butterbee:zombie_nautilus/spawns_petrified_zombie_nautilus","required":false},
+    {"id":"#butterbee:zombie_nautilus/spawns_thawed_zombie_nautilus","required":false}
+  ]
+}

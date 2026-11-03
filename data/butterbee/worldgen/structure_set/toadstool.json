@@ -1,0 +1,14 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 300502,
+      "separation": 1,
+      "spacing": 5
+    },
+    "structures": [
+      {
+        "structure": "butterbee:toadstool",
+        "weight": 1
+      }
+    ]
+  }

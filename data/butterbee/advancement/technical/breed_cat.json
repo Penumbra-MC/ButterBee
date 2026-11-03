@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "breed_cat": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:cat"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:breed_cat_owner_fix"
+  }
+}

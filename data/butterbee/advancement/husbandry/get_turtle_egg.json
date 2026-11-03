@@ -1,0 +1,34 @@
+{
+  "parent": "butterbee:husbandry/get_egg",
+  "display": {
+    "icon": {
+      "id": "minecraft:turtle_egg"
+    },
+    "title": {
+      "translate": "advancement.butterbee.husbandry.get_turtle_egg.title",
+      "fallback": "Translocation"
+    },
+    "description": {
+      "translate": "advancement.butterbee.husbandry.get_turtle_egg",
+      "fallback": "Carefully obtain a Turtle Egg without destroying it"
+    },
+    "frame": "goal"
+  },
+  "criteria": {
+    "obtain_turtle_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:turtle_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_turtle_egg"
+    ]
+  ]
+}

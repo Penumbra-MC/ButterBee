@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:components": {
+          "minecraft:chicken/variant": "butterbee:nether"
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:components": {
+          "minecraft:chicken/variant": "butterbee:hamlin"
+        }
+      }
+    }
+  ]
+}

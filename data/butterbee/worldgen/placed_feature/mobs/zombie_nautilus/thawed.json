@@ -1,0 +1,22 @@
+{
+  "feature": {
+    "type": "minecraft:template",
+    "templates": [
+      {
+        "data": {
+          "id": "butterbee:mobs/zombie_nautilus/thawed"
+        },
+        "weight": 1
+      }
+    ]
+  },
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+          "type": "matching_biomes",
+          "biomes": "#butterbee:zombie_nautilus/spawns_thawed_zombie_nautilus"
+        }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "description": {
+    "translate": "enchantment.butterbee.incubation_curse",
+    "fallback": "Curse of Incubation"
+  },
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:damage_immunity": [
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "#minecraft:skeletons",
+                "minecraft:team": "butterbee.horseman"
+              }
+            },
+            {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "#minecraft:is_projectile",
+                    "expected": true
+                  },
+                  {
+                    "id": "#minecraft:bypasses_invulnerability",
+                    "expected": false
+                  }
+                ],
+                "source_entity": {
+                  "minecraft:entity_type": "#minecraft:skeletons",
+                  "minecraft:team": "butterbee.horseman"
+                }
+              }
+            }
+          ]
+        },
+        "effect": {}
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:chicken/variant": "butterbee:twisted"
+            }
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "butterbee:twisted_chicken/init"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_in_water": true
+            },
+            "minecraft:entity_type": "minecraft:skeleton_horse"
+          }
+        },
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:gravity",
+              "id": "butterbee:skeleton_horse_water_gravity",
+              "amount": 0.7,
+              "operation": "add_value"
+            },
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:jump_strength",
+              "id": "butterbee:skeleton_horse_water_jump",
+              "amount": 0.2,
+              "operation": "add_value"
+            },
+            {
+              "type": "minecraft:attribute",
+              "attribute": "minecraft:movement_efficiency",
+              "id": "butterbee:skeleton_horse_water_movement",
+              "amount": 1.0,
+              "operation": "add_value"
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "minecraft:player",
+            "minecraft:periodic_tick": 20
+          }
+        },
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "butterbee:incubation_curse/init"
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "type": "minecraft:environment_attribute_check",
+              "attribute": "minecraft:gameplay/monsters_burn",
+              "value": true
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:skeleton_horse",
+                "minecraft:periodic_tick": 25
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "block.fire.ambient",
+          "pitch": 1,
+          "volume": 0.1
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "type": "minecraft:environment_attribute_check",
+              "attribute": "minecraft:gameplay/monsters_burn",
+              "value": true
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:skeleton_horse"
+              }
+            },
+            {
+              "type": "minecraft:random_chance",
+              "chance": 0.6
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:smoke"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "offset": 0.1,
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "in_bounding_box",
+            "offset": 0.4,
+            "scale": 0.1
+          },
+          "horizontal_velocity": {
+            "base": 0.2,
+            "movement_scale": -2
+          },
+          "vertical_velocity": {
+            "base": 0.1
+          },
+          "speed": 0
+        }
+      },
+      {
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:location": {
+                  "can_see_sky": true
+                }
+              }
+            },
+            {
+              "type": "minecraft:environment_attribute_check",
+              "attribute": "minecraft:gameplay/monsters_burn",
+              "value": true
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:skeleton_horse"
+              }
+            },
+            {
+              "type": "minecraft:random_chance",
+              "chance": 0.03
+            }
+          ]
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:small_flame"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box",
+            "offset": 0.06,
+            "scale": 1
+          },
+          "vertical_position": {
+            "type": "in_bounding_box",
+            "offset": 0.2,
+            "scale": 0.5
+          },
+          "horizontal_velocity": {
+            "base": 0.5,
+            "movement_scale": -1
+          },
+          "vertical_velocity": {
+            "base": 0.5
+          },
+          "speed": 0
+        }
+      }
+    ]
+  }
+}

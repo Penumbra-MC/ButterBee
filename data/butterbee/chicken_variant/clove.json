@@ -1,0 +1,14 @@
+{
+  "model": "cold",
+  "asset_id": "butterbee:entity/chicken/chicken_clove",
+  "baby_asset_id": "butterbee:entity/chicken/chicken_clove_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:chicken/spawns_clove_chicken"
+      },
+      "priority": 2
+    }
+  ]
+}

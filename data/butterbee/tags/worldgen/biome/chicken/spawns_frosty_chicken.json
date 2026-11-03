@@ -1,0 +1,14 @@
+{
+  "values": [
+    {"id":"clifftree:snowy_old_growth_taiga","required":false},
+    {"id":"clifftree:glacier_cliffs","required":false},
+    {"id":"clifftree:glacier_valley","required":false},
+    {"id":"clifftree:frozen_caves","required":false},
+    {"id":"minecraft:ice_caves","required":false},
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean"
+  ]
+}

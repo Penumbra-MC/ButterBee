@@ -1,0 +1,14 @@
+{
+  "model": "cold",
+  "asset_id": "butterbee:entity/chicken/chicken_frosty",
+  "baby_asset_id": "butterbee:entity/chicken/chicken_frosty_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:chicken/spawns_frosty_chicken"
+      },
+      "priority": 2
+    }
+  ]
+}

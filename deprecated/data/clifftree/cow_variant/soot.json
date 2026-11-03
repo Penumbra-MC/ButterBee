@@ -1,0 +1,5 @@
+{
+ "asset_id": "butterbee:entity/cow/cow_soot",
+  "baby_asset_id": "butterbee:entity/cow/cow_soot_baby",
+  "spawn_conditions": []
+}

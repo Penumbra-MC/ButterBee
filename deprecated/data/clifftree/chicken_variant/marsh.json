@@ -1,0 +1,6 @@
+{
+  "model": "cold",
+  "asset_id": "butterbee:entity/chicken/chicken_marsh",
+  "baby_asset_id": "butterbee:entity/chicken/chicken_marsh_baby",
+  "spawn_conditions": []
+}

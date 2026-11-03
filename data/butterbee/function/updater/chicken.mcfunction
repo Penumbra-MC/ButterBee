@@ -1,0 +1,8 @@
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:frosty"}}} run data merge entity @s {variant:"butterbee:frosty"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:marsh"}}} run data merge entity @s {variant:"butterbee:marsh"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:mesa"}}} run data merge entity @s {variant:"butterbee:mesa"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:nether"}}} run data merge entity @s {variant:"butterbee:nether"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:pine"}}} run data merge entity @s {variant:"butterbee:pine"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:roofed"}}} run data merge entity @s {variant:"butterbee:roofed"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/variant":"clifftree:tropical"}}} run data merge entity @s {variant:"butterbee:tropical"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"chicken/sound_variant":"clifftree:rowdy"}}} run data merge entity @s {sound_variant:"butterbee:rowdy"}

@@ -1,0 +1,18 @@
+{
+  "advancement.butterbee.husbandry.get_all_eggs": "Hold every type of Chicken Egg in your inventory",
+  "advancement.butterbee.husbandry.get_all_eggs.title": "Not Too Unimportant",
+  "advancement.butterbee.husbandry.get_egg": "Obtain a Chicken Egg",
+  "advancement.butterbee.husbandry.get_egg.title": "Eggcellent",
+  "advancement.butterbee.husbandry.get_turtle_egg": "Carefully obtain a Turtle Egg without destroying it",
+  "advancement.butterbee.husbandry.get_turtle_egg.title": "Translocation",
+
+  "enchantment.butterbee.incubation_curse": "Curse of Incubation",
+
+  "item.butterbee.amber_egg": "Amber Egg",
+  "item.butterbee.black_egg": "Black Egg",
+  "item.butterbee.gray_egg": "Gray Egg",
+  "item.butterbee.pale_egg": "Pale Egg",
+  "item.butterbee.red_egg": "Red Egg",
+  "item.butterbee.teal_egg": "Teal Egg",
+  "item.butterbee.hazel_egg": "Hazel Egg"
+}

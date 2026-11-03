@@ -1,0 +1,9 @@
+{
+ "asset_id": "butterbee:entity/cow/cow_temperate_alt",
+  "baby_asset_id": "butterbee:entity/cow/cow_temperate_alt_baby",
+  "spawn_conditions": [
+    {
+      "priority": 0
+    }
+  ]
+}

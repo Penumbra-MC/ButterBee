@@ -1,0 +1,13 @@
+{
+ "asset_id": "butterbee:entity/cow/cow_soot_alt",
+  "baby_asset_id": "butterbee:entity/cow/cow_soot_alt_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:cow/spawns_soot_cow"
+      },
+      "priority": 1
+    }
+  ]
+}

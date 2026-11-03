@@ -1,0 +1,14 @@
+{
+  "asset_id": "butterbee:entity/pig/pig_field",
+  "baby_asset_id": "butterbee:entity/pig/pig_field_baby",
+  "model": "cold",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:pig/spawns_field_pig"
+      },
+      "priority": 0
+    }
+  ]
+}

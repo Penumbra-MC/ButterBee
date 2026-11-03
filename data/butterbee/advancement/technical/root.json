@@ -1,0 +1,9 @@
+{
+  "criteria": {
+    "root": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {}
+}

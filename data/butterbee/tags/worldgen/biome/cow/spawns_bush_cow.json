@@ -1,0 +1,6 @@
+{
+  "values": [
+    {"id":"clifftree:shrubland","required":false},
+    "minecraft:desert"
+  ]
+}

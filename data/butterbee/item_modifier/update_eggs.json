@@ -1,0 +1,137 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:mesa"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:mesa",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.amber_egg",
+              "fallback": "Amber Egg"
+            },
+            "minecraft:item_model": "butterbee:amber_egg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:tropical"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:roofed",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.black_egg",
+              "fallback": "Black Egg"
+            },
+            "minecraft:item_model": "butterbee:black_egg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:marsh"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:marsh",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.gray_egg",
+              "fallback": "Gray Egg"
+            },
+            "minecraft:item_model": "butterbee:gray_egg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:frosty"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:frosty",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.pale_egg",
+              "fallback": "Pale Egg"
+            },
+            "minecraft:item_model": "butterbee:pale_egg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:tropical"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:tropical",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.red_egg",
+              "fallback": "Red Egg"
+            },
+            "minecraft:item_model": "butterbee:red_egg"
+          }
+        }
+      ]
+    },
+    {
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "items": "#minecraft:eggs",
+        "components": {
+          "minecraft:chicken/variant": "clifftree:pine"
+        }
+      },
+      "on_pass": [
+        {
+          "type": "minecraft:set_components",
+          "components": {
+            "minecraft:chicken/variant": "butterbee:pine",
+            "minecraft:item_name": {
+              "translate": "item.butterbee.teal_egg",
+              "fallback": "Teal Egg"
+            },
+            "minecraft:item_model": "butterbee:teal_egg"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "schemaVersion": 1,
+    "id": "butterbee",
+    "version": "1.1.0",
+    "name": "ButterBee",
+    "description": "Populates biomes of the world with diverse new animal variants",
+    "authors": [
+        {
+            "name": "Konci"
+        },
+        {
+            "name": "Evergreene"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "MiziraGamez"
+        },
+        {
+            "name": "ViviSpook"
+        }
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/butterbee"
+    },
+    "license": "CC-BY-NC-SA-4.0",
+    "icon": "pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*",
+		"minecraft": ">=26.3"
+    },
+    "recommends": {
+        "clifftree": ">=4.0.0"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "model": "cold",
+  "asset_id": "butterbee:entity/cow/cow_frigid_dark",
+  "baby_asset_id": "butterbee:entity/cow/cow_frigid_dark_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:cow/spawns_frigid_cow"
+      },
+      "priority": 2
+    }
+  ]
+}

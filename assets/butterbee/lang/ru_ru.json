@@ -1,0 +1,15 @@
+{
+  "advancement.butterbee.husbandry.get_all_eggs": "Соберите в инвентаре все виды куриных яиц",
+  "advancement.butterbee.husbandry.get_all_eggs.title": "В одну корзину",
+  
+  "enchantment.butterbee.incubation_curse": "Проклятие инкубации",
+
+  "item.butterbee.amber_egg": "Янтарное яйцо",
+  "item.butterbee.black_egg": "Чёрное яйцо",
+  "item.butterbee.gray_egg": "Серое яйцо",
+  "item.butterbee.pale_egg": "Бледное яйцо",
+  "item.butterbee.red_egg": "Красное яйцо",
+  "item.butterbee.teal_egg": "Бирюзовое яйцо",
+
+  "text.butterbee.no_resource_pack": " Набор ресурсов «ButterBee» не установлен!"
+}

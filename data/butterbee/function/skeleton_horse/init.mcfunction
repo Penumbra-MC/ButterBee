@@ -1,0 +1,2 @@
+advancement revoke @s only butterbee:technical/trigger_skeleton_trap
+execute as @n[tag=!butterbee.horseman_horse,distance=..64,nbt=!{SkeletonTrap:1b},type=minecraft:skeleton_horse] at @s run function butterbee:skeleton_horse/horseman_start

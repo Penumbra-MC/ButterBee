@@ -1,0 +1,17 @@
+{
+  "parent": "butterbee:technical/root",
+  "criteria": {
+    "name_nether_chicken": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:name_tag"
+        },
+        "entity": "butterbee:nether_chickens"
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:nether_chicken/name_check"
+  }
+}

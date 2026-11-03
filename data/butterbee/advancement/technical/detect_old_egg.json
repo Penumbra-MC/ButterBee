@@ -1,0 +1,90 @@
+{
+  "parent": "butterbee:technical/root",
+  "criteria": {
+    "clifftree:frosty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:frosty"
+            }
+          }
+        ]
+      }
+    },
+    "clifftree:marsh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:marsh"
+            }
+          }
+        ]
+      }
+    },
+    "clifftree:mesa": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:mesa"
+            }
+          }
+        ]
+      }
+    },
+    "clifftree:pine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:pine"
+            }
+          }
+        ]
+      }
+    },
+    "clifftree:roofed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:roofed"
+            }
+          }
+        ]
+      }
+    },
+    "clifftree:tropical": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "chicken/variant": "clifftree:tropical"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "clifftree:frosty",
+      "clifftree:marsh",
+      "clifftree:mesa",
+      "clifftree:pine",
+      "clifftree:roofed",
+      "clifftree:tropical"
+    ]
+  ],
+  "rewards": {
+    "function": "butterbee:updater/update_eggs"
+  }
+}

@@ -1,0 +1,3 @@
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"wolf/variant":"clifftree:charcoal"}}} run data merge entity @s {variant:"butterbee:charcoal"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"wolf/variant":"clifftree:cloaked"}}} run data merge entity @s {variant:"butterbee:cloaked"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"wolf/variant":"clifftree:shaggy"}}} run data merge entity @s {variant:"butterbee:shaggy"}

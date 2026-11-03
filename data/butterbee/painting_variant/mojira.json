@@ -1,0 +1,13 @@
+{
+  "asset_id": "butterbee:mojira",
+  "height": 2,
+  "width": 4,
+  "author": {
+    "color": "gray",
+    "text": "Konci"
+  },
+  "title": {
+    "color": "yellow",
+    "text": "Mojira"
+  }
+}

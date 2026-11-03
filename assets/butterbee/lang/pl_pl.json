@@ -1,0 +1,15 @@
+{
+  "advancement.butterbee.husbandry.get_all_eggs": "Trzymaj w ekwipunku każdy rodzaj kurzego jajka",
+  "advancement.butterbee.husbandry.get_all_eggs.title": "Ale jaja!",
+
+  "enchantment.butterbee.incubation_curse": "Klątwa inkubacji",
+
+  "item.butterbee.amber_egg": "Bursztynowe jajko",
+  "item.butterbee.black_egg": "Czarne jajko",
+  "item.butterbee.gray_egg": "Szare jajko",
+  "item.butterbee.pale_egg": "Blade jajko",
+  "item.butterbee.red_egg": "Czerwone jajko",
+  "item.butterbee.teal_egg": "Turkusowe jajko",
+
+  "text.butterbee.no_resource_pack": "Paczka zasobów ButterBee nie jest zainstalowana!"
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "butterbee:technical/root",
+  "criteria": {
+    "trigger_skeleton_trap": {
+      "trigger": "minecraft:lightning_strike",
+      "conditions": {
+        "bystander": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:skeleton_horse",
+            "minecraft:entity_tags": {
+              "none_of": [
+                "butterbee.horseman_horse"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:skeleton_horse/init"
+  }
+}

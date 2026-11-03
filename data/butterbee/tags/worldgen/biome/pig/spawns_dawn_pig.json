@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:dappled_forest",
+    {"id":"clifftree:mantled_forest","required":false}
+
+  ]
+}

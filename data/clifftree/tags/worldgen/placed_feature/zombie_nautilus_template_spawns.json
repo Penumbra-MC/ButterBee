@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "butterbee:mobs/zombie_nautilus/petrified",
+    "butterbee:mobs/zombie_nautilus/thawed"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "asset_id": "butterbee:entity/frog/toadstool",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:frog/spawns_toadstool"
+      },
+      "priority": 2
+    }
+  ]
+}

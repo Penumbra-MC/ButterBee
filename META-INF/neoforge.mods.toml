@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "CC-BY-NC-SA-4.0"
+
+[[dependencies.butterbee]]
+modId = "neoforge"
+type = "required"
+mandatory = true
+versionRange = "[1,)"
+
+[[dependencies.butterbee]]
+modId = "clifftree"
+type = "optional"
+versionRange = "[4.0.0,)"
+
+[[dependencies.butterbee]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[26.3,)"
+
+[[mods]]
+modId = "butterbee"
+version = "1.1.0"
+displayName = "ButterBee"
+description = "Populates biomes of the world with diverse new animal variants"
+logoFile = "pack.png"
+displayURL = "https://modrinth.com/project/butterbee"
+credits = "Contributors: MiziraGamez, ViviSpook"
+authors = "Konci, Evergreene"

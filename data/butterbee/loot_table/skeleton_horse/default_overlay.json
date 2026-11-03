@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "butterbee:incubation_curse": 1,
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1,
+                "minecraft:projectile_protection": 8
+              },
+              "minecraft:equippable": {
+                "slot": "body",
+                "equip_sound": {
+                  "sound_id": "minecraft:entity.skeleton_horse.ambient",
+                  "range": 0
+                }
+              },
+              "minecraft:enchantment_glint_override": false,
+              "attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "amount": 3,
+                  "id": "butterbee:skeleton_horse_armor",
+                  "operation": "add_value",
+                  "slot": "body"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

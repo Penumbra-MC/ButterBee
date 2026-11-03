@@ -1,0 +1,103 @@
+{
+  "parent": "butterbee:husbandry/get_egg",
+  "criteria": {
+    "all_eggs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:clove"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:frosty"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:marsh"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:mesa"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:pine"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:roofed"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "butterbee:tropical"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "minecraft:cold"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "minecraft:temperate"
+            }
+          },
+          {
+            "items": "#minecraft:eggs",
+            "components": {
+              "chicken/variant": "minecraft:warm"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "hidden": true,
+    "description": {
+      "translate": "advancement.butterbee.husbandry.get_all_eggs",
+      "fallback": "Hold every type of Chicken Egg in your inventory"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:egg",
+      "components": {
+        "minecraft:item_name": {
+          "translate": "item.butterbee.pale_egg",
+          "fallback": "Pale Egg"
+        },
+        "minecraft:item_model": "butterbee:pale_egg"
+      }
+    },
+    "title": {
+      "translate": "advancement.butterbee.husbandry.get_all_eggs.title",
+      "fallback": "Not Too Unimportant"
+    }
+  },
+  "requirements": [
+    [
+      "all_eggs"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

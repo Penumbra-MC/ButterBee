@@ -1,0 +1,13 @@
+{
+    "assets": {
+      "angry": "butterbee:entity/wolf/wolf_shaggy_angry",
+      "tame": "butterbee:entity/wolf/wolf_shaggy_tame",
+      "wild": "butterbee:entity/wolf/wolf_shaggy"
+    },
+    "baby_assets": {
+      "angry": "butterbee:entity/wolf/wolf_shaggy_angry_baby",
+      "tame": "butterbee:entity/wolf/wolf_shaggy_tame_baby",
+      "wild": "butterbee:entity/wolf/wolf_shaggy_baby"
+    },
+    "spawn_conditions": []
+  }

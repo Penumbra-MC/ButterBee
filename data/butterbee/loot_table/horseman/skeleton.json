@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ],
+          "name": "minecraft:arrow"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": [
+            {
+              "type": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 4
+                },
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ],
+          "condition": {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.025,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.05,
+              "per_level_above_first": 0.05
+            },
+            "enchantment": "minecraft:looting"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "modifier": [
+            {
+              "type": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": {
+                  "type": "minecraft:uniform",
+                  "min": 3,
+                  "max": 4
+                },
+                "minecraft:unbreaking": {
+                  "type": "minecraft:uniform",
+                  "min": 0,
+                  "max": 3
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.3,
+                "max": 0.9
+              },
+              "add": false
+            }
+          ],
+          "condition": {
+            "type": "minecraft:random_chance_with_enchanted_bonus",
+            "unenchanted_chance": 0.025,
+            "enchanted_chance": {
+              "type": "minecraft:linear",
+              "base": 0.05,
+              "per_level_above_first": 0.05
+            },
+            "enchantment": "minecraft:looting"
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/skeleton"
+}

@@ -1,0 +1,6 @@
+{
+  "asset_id": "butterbee:entity/pig/pig_mire",
+  "baby_asset_id": "butterbee:entity/pig/pig_mire_baby",
+  "model": "cold",
+  "spawn_conditions": []
+}

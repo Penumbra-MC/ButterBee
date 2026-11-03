@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:egg"
+    },
+    "title": {
+      "translate": "advancement.butterbee.husbandry.get_egg.title",
+      "fallback": "Eggcellent"
+    },
+    "description": {
+      "translate": "advancement.butterbee.husbandry.get_egg",
+      "fallback": "Obtain a Chicken Egg"
+    },
+    "frame": "task"
+  },
+  "criteria": {
+    "obtain_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:eggs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_egg"
+    ]
+  ]
+}

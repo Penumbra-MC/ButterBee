@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "minecraft:temperate"
+                  }
+                }
+              },
+              "name": "minecraft:egg"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "minecraft:warm"
+                  }
+                }
+              },
+              "name": "minecraft:brown_egg"
+            },
+            {
+              "type": "minecraft:item",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "minecraft:cold"
+                  }
+                }
+              },
+              "name": "minecraft:blue_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:marsh"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/gray_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:roofed"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/black_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:tropical"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/red_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:mesa"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/amber_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:pine"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/teal_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:frosty"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/pale_egg"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "condition": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:components": {
+                    "minecraft:chicken/variant": "butterbee:clove"
+                  }
+                }
+              },
+              "value": "butterbee:eggs/hazel_egg"
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/chicken_lay"
+}

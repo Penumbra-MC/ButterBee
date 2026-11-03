@@ -1,0 +1,10 @@
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:bush"}}} run data merge entity @s {variant:"butterbee:bush"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:chalky"}}} run data merge entity @s {variant:"butterbee:chalky"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:chalky_alt"}}} run data merge entity @s {variant:"butterbee:chalky_alt"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:chilly"}}} run data merge entity @s {variant:"butterbee:chilly"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:damp"}}} run data merge entity @s {variant:"butterbee:damp"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:frigid_dark"}}} run data merge entity @s {variant:"butterbee:frigid_dark"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:frigid_light"}}} run data merge entity @s {variant:"butterbee:frigid_light"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:soot"}}} run data merge entity @s {variant:"butterbee:soot"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:soot_alt"}}} run data merge entity @s {variant:"butterbee:soot_alt"}
+execute if predicate {type:"entity_properties",entity:"this",predicate:{components:{"cow/variant":"clifftree:temperate_alt"}}} run data merge entity @s {variant:"butterbee:temperate_alt"}

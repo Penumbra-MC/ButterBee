@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:item_name": {
+                "translate": "item.butterbee.amber_egg",
+                "fallback": "Amber Egg"
+              },
+              "minecraft:item_model": "butterbee:amber_egg",
+              "minecraft:chicken/variant": "butterbee:mesa"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

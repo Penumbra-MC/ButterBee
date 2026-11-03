@@ -1,0 +1,88 @@
+{
+	"entity.skeleton_horseman.transform": {
+		"sounds": [
+			"minecraft:block/trial_spawner/spawn_item1",
+			"minecraft:block/trial_spawner/spawn_item2",
+			"minecraft:block/trial_spawner/spawn_item3"
+		]
+	},
+	"entity.chicken_classic.ambient": {
+		"sounds": [
+			"butterbee:mob/chicken/classic_ambient1",
+			"butterbee:mob/chicken/classic_ambient2",
+			"butterbee:mob/chicken/classic_ambient3"
+		],
+		"subtitle": "subtitles.entity.chicken.ambient"
+	},
+	"entity.chicken_classic.death": {
+		"sounds": [
+			{
+				"name": "butterbee:mob/chicken/classic_death",
+				"volume": 1.6
+			}
+		],
+		"subtitle": "subtitles.entity.chicken.death"
+	},
+	"entity.chicken_rowdy.hurt": {
+		"sounds": [
+			{
+				"name": "butterbee:mob/chicken/rowdy_hurt1",
+				"volume": 0.8
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_hurt2",
+				"volume": 0.8
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_hurt3",
+				"volume": 0.8
+			}
+		],
+		"subtitle": "subtitles.entity.chicken.hurt"
+	},
+	"entity.chicken_rowdy.death": {
+		"sounds": [
+			{
+				"name": "butterbee:mob/chicken/rowdy_death",
+				"volume": 1.4
+			}
+		],
+		"subtitle": "subtitles.entity.chicken.death"
+	},
+	"entity.chicken_rowdy.ambient": {
+		"sounds": [
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient1",
+				"weight": 10,
+				"volume": 0.5
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient2",
+				"weight": 10,
+				"volume": 0.5
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient3",
+				"weight": 10,
+				"volume": 0.5
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient4",
+				"weight": 10,
+				"volume": 0.5
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient5",
+				"weight": 10,
+				"volume": 0.5
+			},
+			{
+				"name": "butterbee:mob/chicken/rowdy_ambient_rare",
+				"weight": 1,
+				"volume": 0.5,
+				"attenuation_distance": 24
+			}
+		],
+		"subtitle": "subtitles.entity.chicken.ambient"
+	}
+}

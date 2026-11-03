@@ -1,0 +1,2 @@
+execute as @e[distance=..5,type=!player] at @s if data entity @s InLove unless data entity @s {InLove:0} run function butterbee:incubation_curse/breedable_mob
+execute as @e[distance=..10,type=allay] at @s if data entity @s {DuplicationCooldown:0L} run function butterbee:incubation_curse/allay

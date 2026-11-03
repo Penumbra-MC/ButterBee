@@ -1,0 +1,14 @@
+{
+  "model": "cold",
+  "asset_id": "butterbee:entity/chicken/chicken_marsh",
+  "baby_asset_id": "butterbee:entity/chicken/chicken_marsh_baby",
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:biome",
+        "biomes": "#butterbee:chicken/spawns_marsh_chicken"
+      },
+      "priority": 2
+    }
+  ]
+}

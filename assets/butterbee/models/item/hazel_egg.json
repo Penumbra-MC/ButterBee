@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "particle": "butterbee:item/particle/hazel_egg",
+      "layer0": "butterbee:item/hazel_egg"
+    }
+}

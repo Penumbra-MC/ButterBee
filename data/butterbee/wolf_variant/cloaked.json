@@ -1,0 +1,21 @@
+{
+    "assets": {
+      "angry": "butterbee:entity/wolf/wolf_cloaked_angry",
+      "tame": "butterbee:entity/wolf/wolf_cloaked_tame",
+      "wild": "butterbee:entity/wolf/wolf_cloaked"
+    },
+    "baby_assets": {
+      "angry": "butterbee:entity/wolf/wolf_cloaked_angry_baby",
+      "tame": "butterbee:entity/wolf/wolf_cloaked_tame_baby",
+      "wild": "butterbee:entity/wolf/wolf_cloaked_baby"
+    },
+    "spawn_conditions": [
+      {
+        "condition": {
+          "type": "minecraft:biome",
+          "biomes": "#butterbee:wolf/spawns_cloaked_wolf"
+        },
+        "priority": 2
+      }
+    ]
+  }
