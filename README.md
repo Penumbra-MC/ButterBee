@@ -31,12 +31,4 @@ By Konci and Evergreene
 
 <h2></h2>
 
-<a href="https://www.bisecthosting.com/konci/">
-<h4>
-🛜 
-Get 25% off at BisectHosting using code "konci"
-🛜
-</h4>
-</a>
 
-</div>
