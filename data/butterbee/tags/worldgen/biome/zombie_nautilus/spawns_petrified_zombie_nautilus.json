@@ -1,5 +1,6 @@
 {
   "values": [
-    {"id":"clifftree:stone_ocean","required":false}
+    {"id":"clifftree:stone_ocean","required":false},
+    "minecraft:dripstone_caves"
   ]
 }

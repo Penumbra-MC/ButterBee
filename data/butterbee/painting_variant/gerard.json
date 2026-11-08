@@ -1,0 +1,13 @@
+{
+  "asset_id": "butterbee:gerard",
+  "height": 3,
+  "width": 3,
+  "author": {
+    "color": "gray",
+    "text": "Konci"
+  },
+  "title": {
+    "color": "yellow",
+    "text": "Gerard"
+  }
+}

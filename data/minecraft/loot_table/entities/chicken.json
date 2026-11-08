@@ -86,51 +86,11 @@
     },
     {
       "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_lava_chicken"
-        }
-      ],
-      "condition": {
-        "type": "minecraft:all_of",
-        "terms": [
-          {
-            "type": "minecraft:all_of",
-            "terms": [
-              "butterbee:nether_chickens",
-              {
-                "type": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "minecraft:nbt": "{IsChickenJockey:1b}"
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:killed_by_player"
-          }
-        ]
-      }
-    },
-    {
-      "rolls": 1,
       "entries": [],
       "condition": {
         "type": "minecraft:all_of",
         "terms": [
           "butterbee:nether_chickens",
-          {
-            "type": "minecraft:inverted",
-            "term": {
-              "type": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "minecraft:nbt": "{IsChickenJockey:1b}"
-              }
-            }
-          },
           {
             "type": "minecraft:killed_by_player"
           },

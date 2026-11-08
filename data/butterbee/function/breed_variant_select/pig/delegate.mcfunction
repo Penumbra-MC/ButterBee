@@ -1,0 +1,9 @@
+execute as @a[tag=butterbee.schedule_pig.bog] at @s run function butterbee:breed_variant_select/pig/bog
+execute as @a[tag=butterbee.schedule_pig.cold] at @s run function butterbee:breed_variant_select/pig/cold
+execute as @a[tag=butterbee.schedule_pig.dawn] at @s run function butterbee:breed_variant_select/pig/dawn
+execute as @a[tag=butterbee.schedule_pig.dry] at @s run function butterbee:breed_variant_select/pig/dry
+execute as @a[tag=butterbee.schedule_pig.dusk] at @s run function butterbee:breed_variant_select/pig/dusk
+execute as @a[tag=butterbee.schedule_pig.field] at @s run function butterbee:breed_variant_select/pig/field
+execute as @a[tag=butterbee.schedule_pig.grove] at @s run function butterbee:breed_variant_select/pig/grove
+execute as @a[tag=butterbee.schedule_pig.temperate] at @s run function butterbee:breed_variant_select/pig/temperate
+execute as @a[tag=butterbee.schedule_pig.warm] at @s run function butterbee:breed_variant_select/pig/warm

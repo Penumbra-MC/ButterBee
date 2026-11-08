@@ -170,42 +170,48 @@
       "trigger": "minecraft:tame_animal"
     },
     "bred_minecraft:ashen": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "minecraft:ashen"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/ashen": true
+              }
             }
           }
         }
       }
     },
     "bred_minecraft:black": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "minecraft:black"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/black": true
+              }
             }
           }
         }
       }
     },
     "bred_minecraft:chestnut": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "minecraft:chestnut"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/chestnut": true
+              }
             }
           }
         }
@@ -240,14 +246,16 @@
       }
     },
     "bred_minecraft:snowy": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "minecraft:snowy"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/snowy": true
+              }
             }
           }
         }
@@ -268,14 +276,16 @@
       }
     },
     "bred_minecraft:striped": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "minecraft:striped"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/striped": true
+              }
             }
           }
         }
@@ -296,42 +306,48 @@
       }
     },
     "bred_butterbee:charcoal": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "butterbee:charcoal"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/charcoal": true
+              }
             }
           }
         }
       }
     },
     "bred_butterbee:cloaked": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "butterbee:cloaked"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/cloaked": true
+              }
             }
           }
         }
       }
     },
     "bred_butterbee:shaggy": {
-      "trigger": "minecraft:bred_animals",
+      "trigger": "minecraft:location",
       "conditions": {
-        "child": {
-          "type": "minecraft:entity_properties",
+        "player": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:components": {
-              "minecraft:wolf/variant": "butterbee:shaggy"
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "butterbee:technical/breed_wolf_flag/shaggy": true
+              }
             }
           }
         }

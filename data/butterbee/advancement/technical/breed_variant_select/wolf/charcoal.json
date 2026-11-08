@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "variant": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:wolf/variant": "butterbee:charcoal"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:breed_variant_select/wolf/charcoal"
+  }
+}

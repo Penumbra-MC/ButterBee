@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "feed_dandelion": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_dandelion"
+        },
+        "entity": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:all_of",
+              "terms": [
+                {
+                  "type": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "minecraft:flags": {
+                      "is_baby": true
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:inverted",
+                  "term": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                      "minecraft:entity_type": "#minecraft:cannot_be_age_locked"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:tadpole"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancement.butterbee.husbandry.feed_golden_dandelion",
+      "fallback": "Feed a Golden Dandelion to a baby animal to keep it forever young!"
+    },
+    "icon": {
+      "id": "minecraft:golden_dandelion"
+    },
+    "title": {
+      "translate": "advancement.butterbee.husbandry.feed_golden_dandelion.title",
+      "fallback": "The Butterflies and the Bees"
+    }
+  },
+  "requirements": [
+    [
+      "feed_dandelion"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

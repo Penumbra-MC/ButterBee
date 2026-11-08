@@ -1,9 +1,22 @@
 {
 	"entity.skeleton_horseman.transform": {
 		"sounds": [
-			"minecraft:block/trial_spawner/spawn_item1",
-			"minecraft:block/trial_spawner/spawn_item2",
-			"minecraft:block/trial_spawner/spawn_item3"
+			"minecraft:block/trial_spawner/spawn_item_begin1",
+			"minecraft:block/trial_spawner/spawn_item_begin2",
+			"minecraft:block/trial_spawner/spawn_item_begin3"
+		]
+	},
+	"entity.skeleton_horseman.transform_layer": {
+		"sounds": [
+			"minecraft:mob/stray/hurt1",
+			"minecraft:mob/stray/hurt2",
+			"minecraft:mob/stray/hurt3",
+			"minecraft:mob/parched/hurt1",
+			"minecraft:mob/parched/hurt2",
+			"minecraft:mob/parched/hurt3",
+			"minecraft:mob/bogged/hurt1",
+			"minecraft:mob/bogged/hurt2",
+			"minecraft:mob/bogged/hurt3"
 		]
 	},
 	"entity.chicken_classic.ambient": {

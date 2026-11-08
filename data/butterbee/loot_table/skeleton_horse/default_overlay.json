@@ -5,10 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:egg",
+          "name": "minecraft:recovery_compass",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
+              "minecraft:item_name": "",
+              "minecraft:max_stack_size": 1,
+              "minecraft:item_model": "butterbee:technical/disabled_slot",
+              "minecraft:tooltip_display": {
+                "hide_tooltip": true
+              },
               "minecraft:enchantments": {
                 "butterbee:incubation_curse": 1,
                 "minecraft:binding_curse": 1,
@@ -17,6 +23,7 @@
               },
               "minecraft:equippable": {
                 "slot": "body",
+                "allowed_entities": "minecraft:skeleton_horse",
                 "equip_sound": {
                   "sound_id": "minecraft:entity.skeleton_horse.ambient",
                   "range": 0

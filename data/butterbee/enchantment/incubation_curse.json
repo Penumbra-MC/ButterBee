@@ -131,6 +131,16 @@
           "type": "minecraft:all_of",
           "terms": [
             {
+              "type": "minecraft:environment_attribute_check",
+              "attribute": "minecraft:gameplay/monsters_burn",
+              "value": true
+            },
+            {
+              "type": "minecraft:weather_check",
+              "thundering": false,
+              "raining": false
+            },
+            {
               "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
@@ -138,11 +148,6 @@
                   "can_see_sky": true
                 }
               }
-            },
-            {
-              "type": "minecraft:environment_attribute_check",
-              "attribute": "minecraft:gameplay/monsters_burn",
-              "value": true
             },
             {
               "type": "minecraft:entity_properties",
@@ -173,6 +178,11 @@
                   "can_see_sky": true
                 }
               }
+            },
+            {
+              "type": "minecraft:weather_check",
+              "thundering": false,
+              "raining": false
             },
             {
               "type": "minecraft:environment_attribute_check",
@@ -229,6 +239,11 @@
                   "can_see_sky": true
                 }
               }
+            },
+            {
+              "type": "minecraft:weather_check",
+              "thundering": false,
+              "raining": false
             },
             {
               "type": "minecraft:environment_attribute_check",

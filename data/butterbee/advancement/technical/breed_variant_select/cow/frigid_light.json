@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "variant": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:components": {
+              "minecraft:cow/variant": "butterbee:frigid_light"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "butterbee:breed_variant_select/cow/frigid_light"
+  }
+}

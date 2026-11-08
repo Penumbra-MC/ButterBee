@@ -1,0 +1,2 @@
+execute at @a[tag=butterbee.schedule.lava_chicken_void] as @e[distance=..64,type=item] if items entity @s contents minecraft:music_disc_lava_chicken run execute as @s[nbt={Age:0s,PickupDelay:10s}] run kill @s
+tag @a remove butterbee.schedule.lava_chicken_void
